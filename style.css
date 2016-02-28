@@ -1,0 +1,61 @@
+* {
+	font-family:cursive;
+	font-size: 20px;
+/*	background-color: rgba(0,255,0,0.1);*/
+}
+
+body {
+	background: url(http://goo.gl/WlTlBw);
+}
+
+.selected {
+	border:3px solid blue;
+	color: darkgreen;
+	border-radius:40%;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+button:active {
+outline: none;
+border: none;
+}
+
+button:focus {outline:0;}
+
+button.num {
+	min-height: 50px;
+	min-width: 50px;
+	border-radius: 40%;
+	background: #F0EAD6;
+  background: linear-gradient(top,  #F0EAD6,  #CF9DCF);
+  background: -ms-linear-gradient(top,  #F0EAD6,  #CF9DCF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#F0EAD6), to(#CF9DCF));
+  background: -moz-linear-gradient(top,  #F0EAD6,  #CF9DCF);
+  font-size: 30px;
+}
+
+div.clickables>button {
+	text-shadow: 5px 1px 2px #777777;
+	font-weight: bold;
+	border-radius: 5%;
+	width:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
